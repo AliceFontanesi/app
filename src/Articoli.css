@@ -1,0 +1,58 @@
+.post-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-col {
+  flex: 0 0 250px; /* Larghezza fissa per ogni colonna */
+  margin: 10px; /* Aggiungi un margine tra le colonne */
+}
+
+.post-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; /* Aggiungi una transizione all'ombra */
+  }
+
+  .post-box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Ombra più intensa al passaggio del mouse */
+  }
+
+.post-text {
+  margin: 0;
+}
+
+.back-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease; /* Aggiungi una transizione al cambio di colore di sfondo */
+  }
+
+.back-btn:hover {
+  background-color: #555;
+}
+
+.container {
+    padding: 60px;
+  }
+
+  .title-container {
+    padding: 60px;
+    background-color: #b5b5b5; /* Colore grigio chiaro per il container */
+  }
+  
+  .main-title {
+    text-align: center;
+    color: #333;
+  }
+  
+
+

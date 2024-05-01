@@ -1,22 +1,17 @@
-// App.js
+// HomePage.js
 
-import React, { useState } from 'react';
+import React from 'react';
 import NavBar from './navbar';
 import Articoli from './articoli';
 
-function App() {
-  const [selectedMenu, setSelectedMenu] = useState(null);
 
-  const handleMenuClick = (menuName) => {
-    setSelectedMenu(menuName);
-  };
-
+const App = () => {
   return (
-    <div className="App">
-      <NavBar handleMenuClick={handleMenuClick} />
-      {selectedMenu === 'Articoli' && <Articoli />}
+    <div>
+      <Articoli />
+      {/* Altri contenuti della home page */}
     </div>
   );
-}
+};
 
 export default App;
