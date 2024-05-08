@@ -3,6 +3,7 @@
 import React from 'react';
 import NavBar from './navbar';
 import Articoli from './articoli';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 const App = () => {

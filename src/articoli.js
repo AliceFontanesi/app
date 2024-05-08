@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import './Articoli.css'; // Importa il file CSS per lo stile
+import './Articoli.css'; 
 
 function Articoli() {
   const [postData, setPostData] = useState([]);
@@ -42,8 +42,8 @@ function Articoli() {
   return (
     <Container fluid className="main-container">
       <Container className="title-container">
-        <h1 className="main-title">Articoli Escalibur</h1>
-      </Container>
+        <h1 className="main-title">Articoli, report e racconti</h1>
+        </Container>
       <Row xs={1} md={2} lg={3} className="post-row">
         {postData.map(post => (
           <Col key={post.id} className="post-col" onClick={() => handlePostClick(post.id)}>
